@@ -168,10 +168,10 @@ if ($data_foto_pelapor[0] == 'https') {
 													<td>
 														<div class="d-flex justify-content-start">
 															<small class="fst-italic text-white me-2">
-																<?= strftime('%d/%m/%Y', strtotime($laporan['waktu'])); ?>
+																<?= date('d/m/Y', strtotime($laporan['waktu'])); ?>
 															</small>
 															<small class="fst-italic text-white">
-																<?= strftime('%H:%M:%S WIB', strtotime($laporan['waktu'])); ?>
+																<?= date('H:i:s', strtotime($laporan['waktu'])); ?> WIB
 															</small>
 														</div>
 													</td>
@@ -354,10 +354,10 @@ if ($data_foto_pelapor[0] == 'https') {
 																				</a>
 																				<div class="d-block">
 																					<small class="fst-italic text-dark me-2">
-																						<?= strftime('%d/%m/%Y', strtotime($row['waktu'])); ?>
+																						<?= date('d/m/Y', strtotime($row['waktu'])); ?>
 																					</small>
 																					<small class="fst-italic text-dark">
-																						<?= strftime('%H:%M:%S WIB', strtotime($row['waktu'])); ?>
+																						<?= date('H:i:s', strtotime($row['waktu'])); ?> WIB
 																					</small>
 																				</div>
 																				<div class="d-flex align-items-center mb-2">

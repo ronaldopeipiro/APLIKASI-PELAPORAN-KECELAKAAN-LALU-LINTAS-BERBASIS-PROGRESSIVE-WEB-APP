@@ -201,10 +201,10 @@ $ClassHome = new App\Controllers\Home;
 												<div class="card-body">
 													<div class="d-flex justify-content-start">
 														<small class="fst-italic text-white me-3">
-															<?= strftime('%d/%m/%Y', strtotime($row['waktu'])); ?>
+															<?= date('d/m/Y', strtotime($row['waktu'])); ?>
 														</small>
 														<small class="fst-italic text-white">
-															<?= strftime('%H:%M:%S WIB', strtotime($row['waktu'])); ?>
+															<?= date('H:i:s', strtotime($row['waktu'])); ?> WIB
 														</small>
 													</div>
 													<div class="d-flex mt-2">

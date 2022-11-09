@@ -217,7 +217,7 @@ class Laporan extends BaseController
 			$waktu_tempuh = $data_waktu_tempuh[0] . " menit";
 
 			$data[$index]['token'] = $row['token'];
-			$data[$index]['waktu'] = strftime('%d/%m/%Y %H:%M:%S', strtotime($row['waktu'])) . " WIB";
+			$data[$index]['waktu'] = date('d/m/Y H:i:s', strtotime($row['waktu'])) . " WIB";
 			$data[$index]['foto_pelapor'] = $foto_pelapor;
 			$data[$index]['nama_pelapor'] = $pelapor['nama_lengkap'];
 			$data[$index]['email_pelapor'] = $pelapor['email'];
@@ -298,7 +298,7 @@ class Laporan extends BaseController
 			$alamat = $ClassHome->getAddress($row['latitude'], $row['longitude']);
 
 			$data[$index]['token'] = $row['token'];
-			$data[$index]['waktu'] = strftime('%d/%m/%Y %H:%M:%S', strtotime($row['waktu'])) . " WIB";
+			$data[$index]['waktu'] = date('d/m/Y H:i:s', strtotime($row['waktu'])) . " WIB";
 			$data[$index]['foto_pelapor'] = $foto_pelapor;
 			$data[$index]['nama_pelapor'] = $pelapor['nama_lengkap'];
 			$data[$index]['email_pelapor'] = $pelapor['email'];

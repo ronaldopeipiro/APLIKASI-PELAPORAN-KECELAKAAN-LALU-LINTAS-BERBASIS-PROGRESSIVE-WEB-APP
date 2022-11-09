@@ -1,0 +1,47 @@
+CRITICAL - 2022-11-09 17:59:37 --> Function strftime() is deprecated
+in APPPATH\Controllers\Home.php on line 225.
+ 1 APPPATH\Controllers\Home.php(225): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Function strftime() is deprecated', 'APPPATH\\Controllers\\Home.php', 225)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Home->getKoordinatPersonil()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 18:00:37 --> Maximum execution time of 60 seconds exceeded
+in SYSTEMPATH\Debug\Exceptions.php on line 152.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-09 18:00:38 --> Function strftime() is deprecated
+in APPPATH\Views\pelapor\laporan\views.php on line 204.
+ 1 APPPATH\Views\pelapor\laporan\views.php(204): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Function strftime() is deprecated', 'APPPATH\\Views\\pelapor\\laporan\\views.php', 204)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pelapor\\laporan\\views.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1145): CodeIgniter\View\View->render('pelapor/laporan/views', [], true)
+ 5 APPPATH\Controllers\Pelapor\Laporan.php(82): view('pelapor/laporan/views', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pelapor\Laporan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelapor\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 18:00:38 --> Function strftime() is deprecated
+in APPPATH\Views\pelapor\laporan\views.php on line 204.
+ 1 APPPATH\Views\pelapor\laporan\views.php(204): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Function strftime() is deprecated', 'APPPATH\\Views\\pelapor\\laporan\\views.php', 204)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pelapor\\laporan\\views.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1145): CodeIgniter\View\View->render('pelapor/laporan/views', [], true)
+ 5 APPPATH\Controllers\Pelapor\Laporan.php(82): view('pelapor/laporan/views', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pelapor\Laporan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelapor\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-09 18:00:39 --> Function strftime() is deprecated
+in APPPATH\Views\pelapor\laporan\views.php on line 204.
+ 1 APPPATH\Views\pelapor\laporan\views.php(204): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Function strftime() is deprecated', 'APPPATH\\Views\\pelapor\\laporan\\views.php', 204)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pelapor\\laporan\\views.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1145): CodeIgniter\View\View->render('pelapor/laporan/views', [], true)
+ 5 APPPATH\Controllers\Pelapor\Laporan.php(82): view('pelapor/laporan/views', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Pelapor\Laporan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelapor\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
