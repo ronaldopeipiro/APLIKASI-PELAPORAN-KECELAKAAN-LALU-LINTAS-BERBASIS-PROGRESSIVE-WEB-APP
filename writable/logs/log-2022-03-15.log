@@ -1,0 +1,81 @@
+ERROR - 2022-03-15 14:46:20 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-03-15 14:46:20 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\laragon\www\skripsi\app\Models\PelaporModel.php(39): CodeIgniter\BaseModel->first()
+#5 C:\laragon\www\skripsi\app\Controllers\Pelapor\Login.php(128): App\Models\PelaporModel->getPelaporByGoogleId('114506006396026...')
+#6 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pelapor\Login->index()
+#7 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelapor\Login))
+#8 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2022-03-15 16:31:16 --> file_get_contents(https://maps.google.com/maps/api/geocode/json?latlng=-0.0373276,109.3315721&amp;key=AIzaSyB-JpweDJ7_cA9-KiEq-iMjQzlluOemnWo): failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 82, Array)
+#1 C:\laragon\www\skripsi\app\Controllers\Home.php(82): file_get_contents('https://maps.go...')
+#2 C:\laragon\www\skripsi\app\Views\pelapor\laporan\detail.php(116): App\Controllers\Home->getAddress('-0.0373276', '109.3315721')
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\laragon\\www\\...')
+#4 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('pelapor/laporan...', Array, true)
+#6 C:\laragon\www\skripsi\app\Controllers\Pelapor\Laporan.php(104): view('pelapor/laporan...', Array)
+#7 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pelapor\Laporan->detail('R8LlcsK3G0ovLGi...')
+#8 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelapor\Laporan))
+#9 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2022-03-15 16:31:38 --> file_get_contents(https://maps.google.com/maps/api/geocode/json?latlng=-0.0373276,109.3315721&amp;key=AIzaSyB-JpweDJ7_cA9-KiEq-iMjQzlluOemnWo): failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 82, Array)
+#1 C:\laragon\www\skripsi\app\Controllers\Home.php(82): file_get_contents('https://maps.go...')
+#2 C:\laragon\www\skripsi\app\Views\pelapor\laporan\views.php(267): App\Controllers\Home->getAddress('-0.0373276', '109.3315721')
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\laragon\\www\\...')
+#4 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('pelapor/laporan...', Array, true)
+#6 C:\laragon\www\skripsi\app\Controllers\Pelapor\Laporan.php(80): view('pelapor/laporan...', Array)
+#7 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pelapor\Laporan->index()
+#8 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelapor\Laporan))
+#9 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2022-03-15 18:25:06 --> Undefined variable: kode_laporan
+#0 C:\laragon\www\skripsi\app\Views\pelapor\laporan\detail.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 137, Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('pelapor/laporan...', Array, true)
+#4 C:\laragon\www\skripsi\app\Controllers\Pelapor\Laporan.php(104): view('pelapor/laporan...', Array)
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pelapor\Laporan->detail('ziIAy0Od9qjsJvl...')
+#6 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelapor\Laporan))
+#7 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2022-03-15 18:25:19 --> Undefined index: kode_laporan
+#0 C:\laragon\www\skripsi\app\Views\pelapor\laporan\detail.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 137, Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('pelapor/laporan...', Array, true)
+#4 C:\laragon\www\skripsi\app\Controllers\Pelapor\Laporan.php(104): view('pelapor/laporan...', Array)
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pelapor\Laporan->detail('ziIAy0Od9qjsJvl...')
+#6 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelapor\Laporan))
+#7 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2022-03-15 18:25:24 --> Undefined index: kode
+#0 C:\laragon\www\skripsi\app\Views\pelapor\laporan\detail.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 137, Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('pelapor/laporan...', Array, true)
+#4 C:\laragon\www\skripsi\app\Controllers\Pelapor\Laporan.php(104): view('pelapor/laporan...', Array)
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pelapor\Laporan->detail('ziIAy0Od9qjsJvl...')
+#6 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelapor\Laporan))
+#7 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}

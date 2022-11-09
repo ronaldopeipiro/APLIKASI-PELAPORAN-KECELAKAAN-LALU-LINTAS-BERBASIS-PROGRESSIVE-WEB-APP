@@ -1,0 +1,50 @@
+CRITICAL - 2022-04-09 01:00:40 --> unlink(img/laporan/kejadian/1649440560_8c9726ac96b147588a42.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/lapo...', 'C:\\laragon\\www\\...', 284, Array)
+#1 C:\laragon\www\skripsi\app\Controllers\Pelapor\Laporan.php(284): unlink('img/laporan/kej...')
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pelapor\Laporan->hapus_foto_laporan()
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelapor\Laporan))
+#4 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\skripsi\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#7 {main}
+CRITICAL - 2022-04-09 01:00:50 --> unlink(img/laporan/kejadian/1649440560_8c9726ac96b147588a42.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/lapo...', 'C:\\laragon\\www\\...', 284, Array)
+#1 C:\laragon\www\skripsi\app\Controllers\Pelapor\Laporan.php(284): unlink('img/laporan/kej...')
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pelapor\Laporan->hapus_foto_laporan()
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelapor\Laporan))
+#4 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\skripsi\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#7 {main}
+CRITICAL - 2022-04-09 01:02:05 --> Unable to save the image. Please make sure the image and file directory are writable.
+#0 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Images\Handlers\GDHandler.php(255): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+#1 C:\laragon\www\skripsi\app\Controllers\Pelapor\Laporan.php(254): CodeIgniter\Images\Handlers\GDHandler->save('/img/laporan/ke...', 50)
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pelapor\Laporan->tambah_foto_laporan()
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelapor\Laporan))
+#4 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\skripsi\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#7 {main}
+CRITICAL - 2022-04-09 01:02:08 --> Unable to save the image. Please make sure the image and file directory are writable.
+#0 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Images\Handlers\GDHandler.php(255): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+#1 C:\laragon\www\skripsi\app\Controllers\Pelapor\Laporan.php(254): CodeIgniter\Images\Handlers\GDHandler->save('/img/laporan/ke...', 50)
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pelapor\Laporan->tambah_foto_laporan()
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelapor\Laporan))
+#4 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\skripsi\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#7 {main}
+CRITICAL - 2022-04-09 02:52:47 --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 88, Array)
+#1 C:\laragon\www\skripsi\app\Controllers\Home.php(88): file_get_contents('https://maps.go...')
+#2 C:\laragon\www\skripsi\app\Views\pelapor\laporan\detail.php(122): App\Controllers\Home->getAddress('-0.043022188906...', '109.33104268423...')
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\laragon\\www\\...')
+#4 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('pelapor/laporan...', Array, true)
+#6 C:\laragon\www\skripsi\app\Controllers\Pelapor\Laporan.php(104): view('pelapor/laporan...', Array)
+#7 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pelapor\Laporan->detail('ddXanAD8drkieyN...')
+#8 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelapor\Laporan))
+#9 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\skripsi\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#12 {main}

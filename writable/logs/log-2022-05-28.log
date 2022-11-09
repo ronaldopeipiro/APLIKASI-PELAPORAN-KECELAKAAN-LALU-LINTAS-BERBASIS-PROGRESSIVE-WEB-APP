@@ -1,0 +1,53 @@
+CRITICAL - 2022-05-28 08:50:19 --> Undefined index: id_satker
+#0 C:\laragon\www\skripsi\app\Controllers\Personil\Pengaturan.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 35, Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Personil\Pengaturan->__construct()
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\skripsi\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-05-28 08:52:22 --> Undefined index: id_satker
+#0 C:\laragon\www\skripsi\app\Controllers\Personil\Pengaturan.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 35, Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Personil\Pengaturan->__construct()
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\skripsi\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-05-28 08:57:21 --> Undefined property: App\Controllers\Personil\Laporan::$PelaporModel
+#0 C:\laragon\www\skripsi\app\Controllers\Personil\Laporan.php(165): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 165, Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Personil\Laporan->getLaporan()
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personil\Laporan))
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\skripsi\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-05-28 08:58:38 --> Undefined property: App\Controllers\Personil\Laporan::$PelaporModel
+#0 C:\laragon\www\skripsi\app\Controllers\Personil\Laporan.php(165): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 165, Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Personil\Laporan->getLaporanMasuk()
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personil\Laporan))
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\skripsi\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-05-28 09:14:38 --> Undefined property: App\Controllers\Personil\Laporan::$PelaporModel
+#0 C:\laragon\www\skripsi\app\Controllers\Personil\Laporan.php(165): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 165, Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Personil\Laporan->getLaporanMasuk()
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personil\Laporan))
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\skripsi\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-05-28 09:39:20 --> Undefined property: stdClass::$duration_in_traffic
+#0 C:\laragon\www\skripsi\app\Controllers\Home.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 104, Array)
+#1 C:\laragon\www\skripsi\app\Views\personil\laporan\views.php(97): App\Controllers\Home->distance_matrix_google('-5.1511296', '119.4459136', '-0.0263303', '109.3425039')
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('personil/lapora...', Array, true)
+#5 C:\laragon\www\skripsi\app\Controllers\Personil\Laporan.php(100): view('personil/lapora...', Array)
+#6 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Personil\Laporan->index()
+#7 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personil\Laporan))
+#8 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\skripsi\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#11 {main}

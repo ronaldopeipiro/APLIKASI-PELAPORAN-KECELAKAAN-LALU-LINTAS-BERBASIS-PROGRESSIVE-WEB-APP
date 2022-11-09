@@ -1,0 +1,347 @@
+CRITICAL - 2021-11-10 02:52:13 --> Undefined variable: level_user
+#0 C:\laragon\www\skripsi\app\Views\layout\template.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 105, Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('pelapor/dashboa...', Array, true)
+#5 C:\laragon\www\skripsi\app\Controllers\Pelapor\Dashboard.php(67): view('pelapor/dashboa...', Array)
+#6 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pelapor\Dashboard->index()
+#7 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelapor\Dashboard))
+#8 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2021-11-10 02:53:49 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-10 02:53:49 --> Undefined index: id_satker
+#0 C:\laragon\www\skripsi\app\Controllers\Personil\Dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 34, Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Personil\Dashboard->__construct()
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-11-10 02:57:52 --> Undefined variable: user_tanggal_lahir
+#0 C:\laragon\www\skripsi\app\Views\pelapor\pengaturan\views.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 104, Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('pelapor/pengatu...', Array, true)
+#4 C:\laragon\www\skripsi\app\Controllers\Pelapor\Pengaturan.php(69): view('pelapor/pengatu...', Array)
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pelapor\Pengaturan->index()
+#6 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelapor\Pengaturan))
+#7 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-11-10 03:04:52 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-10 03:04:52 --> Undefined index: id_satker
+#0 C:\laragon\www\skripsi\app\Controllers\Personil\Dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 34, Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Personil\Dashboard->__construct()
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-11-10 03:05:54 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-10 03:05:54 --> Undefined index: id_satker
+#0 C:\laragon\www\skripsi\app\Controllers\Personil\Dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 34, Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Personil\Dashboard->__construct()
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-11-10 03:08:34 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-10 03:08:34 --> Undefined index: id_satker
+#0 C:\laragon\www\skripsi\app\Controllers\Personil\Dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 34, Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Personil\Dashboard->__construct()
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-11-10 03:11:58 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-10 03:11:59 --> Undefined index: id_satker
+#0 C:\laragon\www\skripsi\app\Controllers\Personil\Dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 34, Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Personil\Dashboard->__construct()
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-11-10 08:17:25 --> Undefined index: id_satker
+#0 C:\laragon\www\skripsi\app\Controllers\Personil\Dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 34, Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Personil\Dashboard->__construct()
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-11-10 08:18:43 --> Undefined index: id_satker
+#0 C:\laragon\www\skripsi\app\Controllers\Personil\Dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 34, Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Personil\Dashboard->__construct()
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-11-10 08:19:05 --> Undefined index: id_satker
+#0 C:\laragon\www\skripsi\app\Controllers\Personil\Dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 34, Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Personil\Dashboard->__construct()
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-11-10 09:02:07 --> Undefined index: id_satker
+#0 C:\laragon\www\skripsi\app\Controllers\Personil\Dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 34, Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Personil\Dashboard->__construct()
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-11-10 09:33:17 --> Undefined index: id_satker
+#0 C:\laragon\www\skripsi\app\Controllers\Personil\Dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 34, Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Personil\Dashboard->__construct()
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-11-10 09:33:35 --> Undefined index: id_satker
+#0 C:\laragon\www\skripsi\app\Controllers\Personil\Dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 34, Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Personil\Dashboard->__construct()
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-11-10 10:25:31 --> syntax error, unexpected ')'
+#0 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(767): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2021-11-10 10:34:38 --> Undefined index: id_satker
+#0 C:\laragon\www\skripsi\app\Controllers\Personil\Dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 34, Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Personil\Dashboard->__construct()
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-11-10 10:34:59 --> Undefined index: id_satker
+#0 C:\laragon\www\skripsi\app\Controllers\Personil\Dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 34, Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Personil\Dashboard->__construct()
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-11-10 10:48:45 --> Undefined index: id_satker
+#0 C:\laragon\www\skripsi\app\Controllers\Personil\Dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 34, Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Personil\Dashboard->__construct()
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-11-10 11:33:03 --> Undefined index: id_satker
+#0 C:\laragon\www\skripsi\app\Controllers\Personil\Dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 34, Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Personil\Dashboard->__construct()
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-11-10 19:31:39 --> Undefined index: id_satker
+#0 C:\laragon\www\skripsi\app\Controllers\Personil\Dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 34, Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Personil\Dashboard->__construct()
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-11-10 19:39:34 --> Undefined index: id_satker
+#0 C:\laragon\www\skripsi\app\Controllers\Personil\Dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 34, Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Personil\Dashboard->__construct()
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-11-10 19:40:43 --> Undefined index: id_satker
+#0 C:\laragon\www\skripsi\app\Controllers\Personil\Dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 34, Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Personil\Dashboard->__construct()
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-11-10 19:40:57 --> Undefined index: id_satker
+#0 C:\laragon\www\skripsi\app\Controllers\Personil\Dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 34, Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Personil\Dashboard->__construct()
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-11-10 19:43:18 --> Undefined index: id_satker
+#0 C:\laragon\www\skripsi\app\Controllers\Personil\Dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 34, Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Personil\Dashboard->__construct()
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-11-10 19:43:51 --> Undefined index: id_satker
+#0 C:\laragon\www\skripsi\app\Controllers\Personil\Dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 34, Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Personil\Dashboard->__construct()
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-11-10 20:08:15 --> Undefined index: id_satker
+#0 C:\laragon\www\skripsi\app\Controllers\Personil\Dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 34, Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Personil\Dashboard->__construct()
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-11-10 20:08:27 --> Undefined index: id_satker
+#0 C:\laragon\www\skripsi\app\Controllers\Personil\Dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 34, Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Personil\Dashboard->__construct()
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-11-10 20:12:54 --> Undefined index: id_satker
+#0 C:\laragon\www\skripsi\app\Controllers\Personil\Dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 34, Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Personil\Dashboard->__construct()
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-11-10 20:13:28 --> Undefined index: id_satker
+#0 C:\laragon\www\skripsi\app\Controllers\Personil\Dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 34, Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Personil\Dashboard->__construct()
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-11-10 20:13:54 --> Undefined index: id_satker
+#0 C:\laragon\www\skripsi\app\Controllers\Personil\Dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 34, Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Personil\Dashboard->__construct()
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-11-10 20:14:36 --> Undefined index: id_satker
+#0 C:\laragon\www\skripsi\app\Controllers\Personil\Dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 34, Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Personil\Dashboard->__construct()
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-11-10 20:14:57 --> Undefined index: id_satker
+#0 C:\laragon\www\skripsi\app\Controllers\Personil\Dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 34, Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Personil\Dashboard->__construct()
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-11-10 20:16:41 --> Undefined index: id_satker
+#0 C:\laragon\www\skripsi\app\Controllers\Personil\Dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 34, Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Personil\Dashboard->__construct()
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-11-10 20:17:01 --> Undefined index: id_satker
+#0 C:\laragon\www\skripsi\app\Controllers\Personil\Dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 34, Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Personil\Dashboard->__construct()
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-11-10 20:17:18 --> Undefined index: id_satker
+#0 C:\laragon\www\skripsi\app\Controllers\Personil\Dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 34, Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Personil\Dashboard->__construct()
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-11-10 20:50:37 --> Call to undefined method App\Models\PelaporModel::getLaporanByIdPelapor
+#0 C:\laragon\www\skripsi\app\Controllers\Pelapor\Pengaturan.php(114): CodeIgniter\Model->__call('getLaporanByIdP...', Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pelapor\Pengaturan->ubah_foto_profil()
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelapor\Pengaturan))
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-11-10 20:51:22 --> Call to undefined method App\Models\PelaporModel::getLaporanByIdPelapor
+#0 C:\laragon\www\skripsi\app\Controllers\Pelapor\Pengaturan.php(114): CodeIgniter\Model->__call('getLaporanByIdP...', Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pelapor\Pengaturan->ubah_foto_profil()
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelapor\Pengaturan))
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-11-10 20:51:22 --> Call to undefined method App\Models\PelaporModel::getLaporanByIdPelapor
+#0 C:\laragon\www\skripsi\app\Controllers\Pelapor\Pengaturan.php(114): CodeIgniter\Model->__call('getLaporanByIdP...', Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pelapor\Pengaturan->ubah_foto_profil()
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelapor\Pengaturan))
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-11-10 20:51:23 --> Call to undefined method App\Models\PelaporModel::getLaporanByIdPelapor
+#0 C:\laragon\www\skripsi\app\Controllers\Pelapor\Pengaturan.php(114): CodeIgniter\Model->__call('getLaporanByIdP...', Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pelapor\Pengaturan->ubah_foto_profil()
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelapor\Pengaturan))
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-11-10 20:51:23 --> Call to undefined method App\Models\PelaporModel::getLaporanByIdPelapor
+#0 C:\laragon\www\skripsi\app\Controllers\Pelapor\Pengaturan.php(114): CodeIgniter\Model->__call('getLaporanByIdP...', Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pelapor\Pengaturan->ubah_foto_profil()
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelapor\Pengaturan))
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-11-10 21:03:22 --> Undefined index: id_satker
+#0 C:\laragon\www\skripsi\app\Controllers\Personil\Dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 34, Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Personil\Dashboard->__construct()
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}

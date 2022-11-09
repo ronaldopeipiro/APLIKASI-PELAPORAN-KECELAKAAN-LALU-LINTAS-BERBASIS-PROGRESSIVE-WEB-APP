@@ -1,0 +1,18 @@
+CRITICAL - 2022-04-30 11:21:42 --> file_get_contents(http://localhost:9090/notif-keys/public_key.txt): failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 144, Array)
+#1 C:\laragon\www\skripsi\app\Controllers\Home.php(144): file_get_contents('http://localhos...')
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->send_push_notif()
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\skripsi\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#7 {main}
+CRITICAL - 2022-04-30 11:22:43 --> file_get_contents(http://localhost:9090/notif-keys/public_key.txt): failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 144, Array)
+#1 C:\laragon\www\skripsi\app\Controllers\Home.php(144): file_get_contents('http://localhos...')
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->send_push_notif()
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\skripsi\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#7 {main}

@@ -1,0 +1,108 @@
+CRITICAL - 2021-11-08 08:10:35 --> Invalid file: pelapor.php
+#0 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pelapor.php')
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('pelapor', Array, true)
+#2 C:\laragon\www\skripsi\app\Controllers\Pelapor\Login.php(152): view('pelapor', Array)
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pelapor\Login->index()
+#4 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelapor\Login))
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2021-11-08 08:31:41 --> syntax error, unexpected '$session' (T_VARIABLE)
+#0 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(767): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2021-11-08 09:26:15 --> App\Controllers\Pelapor\Login::index(): Failed opening required 'C:\laragon\www\skripsi\app\Libraries/vendor/autoload.php' (include_path='.;C:/laragon/etc/php/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-08 09:26:19 --> App\Controllers\Pelapor\Login::index(): Failed opening required 'C:\laragon\www\skripsi\app\Libraries/vendor/autoload.php' (include_path='.;C:/laragon/etc/php/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-08 09:26:28 --> App\Controllers\Pelapor\Login::index(): Failed opening required 'C:\laragon\www\skripsi\app\Libraries/vendor/autoload.php' (include_path='.;C:/laragon/etc/php/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-08 09:26:30 --> App\Controllers\Pelapor\Login::index(): Failed opening required 'C:\laragon\www\skripsi\app\Libraries/vendor/autoload.php' (include_path='.;C:/laragon/etc/php/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-08 09:27:39 --> App\Controllers\Pelapor\Login::index(): Failed opening required 'C:\laragon\www\skripsi\app\Libraries/vendor/autoload.php' (include_path='.;C:/laragon/etc/php/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-08 09:27:45 --> App\Controllers\Pelapor\Login::index(): Failed opening required 'C:\laragon\www\skripsi\app\Libraries/vendor/autoload.php' (include_path='.;C:/laragon/etc/php/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-08 09:27:46 --> App\Controllers\Pelapor\Login::index(): Failed opening required 'C:\laragon\www\skripsi\app\Libraries/vendor/autoload.php' (include_path='.;C:/laragon/etc/php/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-08 09:27:46 --> App\Controllers\Pelapor\Login::index(): Failed opening required 'C:\laragon\www\skripsi\app\Libraries/vendor/autoload.php' (include_path='.;C:/laragon/etc/php/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-08 09:28:06 --> App\Controllers\Pelapor\Login::index(): Failed opening required 'C:\laragon\www\skripsi\app\Libraries/vendor/autoload.php' (include_path='.;C:/laragon/etc/php/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-08 09:29:03 --> App\Controllers\Pelapor\Login::index(): Failed opening required 'C:\laragon\www\skripsi\app\vendor/autoload.php' (include_path='.;C:/laragon/etc/php/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-08 09:29:04 --> App\Controllers\Pelapor\Login::index(): Failed opening required 'C:\laragon\www\skripsi\app\vendor/autoload.php' (include_path='.;C:/laragon/etc/php/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-08 09:29:45 --> App\Controllers\Pelapor\Login::index(): Failed opening required 'vendor/autoload.php' (include_path='.;C:/laragon/etc/php/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-08 09:29:45 --> App\Controllers\Pelapor\Login::index(): Failed opening required 'vendor/autoload.php' (include_path='.;C:/laragon/etc/php/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-08 09:29:50 --> App\Controllers\Pelapor\Login::index(): Failed opening required './vendor/autoload.php' (include_path='.;C:/laragon/etc/php/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-08 09:29:50 --> App\Controllers\Pelapor\Login::index(): Failed opening required './vendor/autoload.php' (include_path='.;C:/laragon/etc/php/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-08 09:29:51 --> App\Controllers\Pelapor\Login::index(): Failed opening required './vendor/autoload.php' (include_path='.;C:/laragon/etc/php/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-08 09:30:09 --> App\Controllers\Pelapor\Login::index(): Failed opening required 'vendor/autoload.php' (include_path='.;C:/laragon/etc/php/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-08 09:30:10 --> App\Controllers\Pelapor\Login::index(): Failed opening required 'vendor/autoload.php' (include_path='.;C:/laragon/etc/php/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-08 09:30:10 --> App\Controllers\Pelapor\Login::index(): Failed opening required 'vendor/autoload.php' (include_path='.;C:/laragon/etc/php/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-08 09:30:10 --> App\Controllers\Pelapor\Login::index(): Failed opening required 'vendor/autoload.php' (include_path='.;C:/laragon/etc/php/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-08 09:31:50 --> App\Controllers\Pelapor\Login::index(): Failed opening required 'C:\laragon\www\skripsi\app\vendor/autoload.php' (include_path='.;C:/laragon/etc/php/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-08 09:31:51 --> App\Controllers\Pelapor\Login::index(): Failed opening required 'C:\laragon\www\skripsi\app\vendor/autoload.php' (include_path='.;C:/laragon/etc/php/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-08 09:34:02 --> App\Controllers\Pelapor\Login::index(): Failed opening required 'C:\laragon\www\skripsi\app\vendor/autoload.php' (include_path='.;C:/laragon/etc/php/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-08 09:34:03 --> App\Controllers\Pelapor\Login::index(): Failed opening required 'C:\laragon\www\skripsi\app\vendor/autoload.php' (include_path='.;C:/laragon/etc/php/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-08 09:34:03 --> App\Controllers\Pelapor\Login::index(): Failed opening required 'C:\laragon\www\skripsi\app\vendor/autoload.php' (include_path='.;C:/laragon/etc/php/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-08 09:34:05 --> App\Controllers\Pelapor\Login::index(): Failed opening required 'C:\laragon\www\skripsi\app\vendor/autoload.php' (include_path='.;C:/laragon/etc/php/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-08 09:34:07 --> App\Controllers\Pelapor\Login::index(): Failed opening required 'C:\laragon\www\skripsi\app\vendor/autoload.php' (include_path='.;C:/laragon/etc/php/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-08 09:34:11 --> App\Controllers\Pelapor\Login::index(): Failed opening required 'C:\laragon\www\skripsi\app\vendor/autoload.php' (include_path='.;C:/laragon/etc/php/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-08 23:47:03 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

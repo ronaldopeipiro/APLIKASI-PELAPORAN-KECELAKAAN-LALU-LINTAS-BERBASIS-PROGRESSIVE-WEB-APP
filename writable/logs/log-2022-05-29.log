@@ -1,0 +1,22 @@
+CRITICAL - 2022-05-29 14:12:48 --> Undefined property: stdClass::$duration_in_traffic
+#0 C:\laragon\www\skripsi\app\Controllers\Home.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 104, Array)
+#1 C:\laragon\www\skripsi\app\Views\personil\laporan\views.php(98): App\Controllers\Home->distance_matrix_google('-0.0616549', '109.3426422', '-0.0483555', '109.3580942')
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('personil/lapora...', Array, true)
+#5 C:\laragon\www\skripsi\app\Controllers\Personil\Laporan.php(154): view('personil/lapora...', Array)
+#6 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Personil\Laporan->history()
+#7 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personil\Laporan))
+#8 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\skripsi\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2022-05-29 14:31:03 --> file_get_contents(https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=-0.0616549,109.3426422&amp;radius=1000&amp;type=hospital&amp;sensor=true&amp;key=AIzaSyB-JpweDJ7_cA9-KiEq-iMjQzlluOemnWo): failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 172, Array)
+#1 C:\laragon\www\skripsi\app\Controllers\Personil\FasilitasKesehatan.php(172): file_get_contents('https://maps.go...')
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Personil\FasilitasKesehatan->getNearbyLocationFaskes()
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personil\FasilitasKesehatan))
+#4 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\skripsi\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#7 {main}

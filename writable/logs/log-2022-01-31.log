@@ -1,0 +1,16 @@
+CRITICAL - 2022-01-31 05:11:32 --> Undefined property: App\Controllers\Admin\Pengaturan::$user_id
+#0 C:\laragon\www\skripsi\app\Controllers\Admin\Pengaturan.php(106): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 106, Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Pengaturan->ubah_foto_profil()
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pengaturan))
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-01-31 05:11:34 --> Undefined property: App\Controllers\Admin\Pengaturan::$user_id
+#0 C:\laragon\www\skripsi\app\Controllers\Admin\Pengaturan.php(106): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 106, Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Pengaturan->ubah_foto_profil()
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pengaturan))
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}

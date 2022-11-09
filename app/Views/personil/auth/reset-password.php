@@ -1,0 +1,131 @@
+<?= $this->extend('landing/layout/template'); ?>
+
+<?= $this->section('content-landing'); ?>
+
+<?php
+$cek_data = $db->query("SELECT * FROM tb_personil WHERE token_reset_password='$token' ");
+if ($row = $cek_data->getRow()) {
+	$token_invalid = false;
+} else {
+	$token_invalid = true;
+}
+
+?>
+
+<section class="sign-in d-flex justify-content-center align-items-center" style="min-height: 100vh;">
+	<div class="container">
+		<a href="<?= base_url(); ?>/personil/sign-in" class="btn btn-dark shadow" style="position: fixed; left: 15px; top: 15px; margin-bottom: 100px;">
+			<i class="fa fa-arrow-left"></i>
+		</a>
+
+		<div class="row justify-content-center mt-4">
+			<div class="col-12">
+				<h4 class="text-center text-warning">
+					LAPOR LAKA LANTAS APP
+				</h4>
+				<hr>
+			</div>
+
+			<div class="col-lg-10 mt-5 mt-lg-0 pt-3 pb-5">
+				<h5 class="form-title">
+					Reset Password Akun Personil
+				</h5>
+
+				<?php if ($token_invalid) : ?>
+
+					<div class="alert alert-danger">
+						<h4>
+							Token reset password tidak valid !
+						</h4>
+					</div>
+
+				<?php else : ?>
+
+					<form class="register-form mt-3" id="formData">
+						<input type="hidden" id="token_reset_password" name="token_reset_password" value="<?= $token; ?>">
+
+						<div class="form-group">
+							<label for="password_baru"><i class="zmdi zmdi-lock material-icons-name"></i></label>
+							<input type="password" name="password_baru" id="password_baru" placeholder="Masukkan password baru ..." autofocus autocomplete="off" />
+						</div>
+
+						<div class="form-group">
+							<label for="konfirmasi_password"><i class="zmdi zmdi-lock material-icons-name"></i></label>
+							<input type="password" name="konfirmasi_password" id="konfirmasi_password" placeholder="Masukkan ulang password baru ..." autocomplete="off" />
+						</div>
+
+						<div class="form-group form-button mt-5">
+							<button type="submit" id="btnLogin" class="btn btn-success" style="width: 100%;">
+								<i class="zmdi zmdi-arrow-right"></i> Submit
+							</button>
+						</div>
+					</form>
+
+				<?php endif; ?>
+
+				<div class="text-center mt-4">
+					<div class="d-flex justify-content-center">
+						<span>
+							<a href="<?= base_url(); ?>/personil/sign-in" class="signup-image-link ml-2">
+								<i class="fa fa-arrow-circle-right"></i> Masuk
+							</a>
+						</span>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</section>
+
+<script>
+	$(document).ready(function() {
+		$(function() {
+			$("#formData").submit(function(e) {
+				e.preventDefault();
+
+				var token_reset_password = $('#token_reset_password').val();
+				var password_baru = $('#password_baru').val();
+				var konfirmasi_password = $('#konfirmasi_password').val();
+
+				$.ajax({
+					type: "POST",
+					url: "<?= base_url() ?>/Personil/Login/submit_reset_password",
+					dataType: "JSON",
+					data: {
+						token_reset_password: token_reset_password,
+						password_baru: password_baru,
+						konfirmasi_password: konfirmasi_password
+					},
+					beforeSend: function() {
+						$("#loader").show();
+					},
+					success: function(data) {
+						if (data.success == "1") {
+							Swal.fire(
+								'Berhasil',
+								data.pesan,
+								'success'
+							).then(function() {
+								window.location = "<?= base_url() ?>/personil/sign-in";
+							});
+						} else if (data.success == "0") {
+							Swal.fire(
+								'Gagal',
+								data.pesan,
+								'error'
+							)
+						}
+					},
+					complete: function(data) {
+						$("#loader").hide();
+					}
+				});
+
+			});
+
+		});
+	});
+</script>
+
+<?= $this->endSection('content-landing'); ?>

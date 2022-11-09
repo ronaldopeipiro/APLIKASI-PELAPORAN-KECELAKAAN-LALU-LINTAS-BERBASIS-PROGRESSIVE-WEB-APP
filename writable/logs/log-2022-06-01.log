@@ -1,0 +1,26 @@
+CRITICAL - 2022-06-01 14:58:15 --> Trying to get property 'foto' of non-object
+#0 C:\laragon\www\skripsi\app\Controllers\Personil\Laporan.php(187): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\laragon\\www\\...', 187, Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Personil\Laporan->getLaporanMasuk()
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personil\Laporan))
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\skripsi\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-06-01 16:14:47 --> Undefined property: stdClass::$formatted_phone_number
+#0 C:\laragon\www\skripsi\app\Controllers\Personil\FasilitasKesehatan.php(219): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 219, Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Personil\FasilitasKesehatan->getDetailFaskes()
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personil\FasilitasKesehatan))
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\skripsi\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-06-01 19:26:46 --> file_get_contents(https://maps.googleapis.com/maps/api/distancematrix/json?departure_time=now&amp;destinations=-0.0373764%2C109.3315807&amp;origins=-0.0616549%2C109.3426422&amp;key=AIzaSyB-JpweDJ7_cA9-KiEq-iMjQzlluOemnWo): failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 99, Array)
+#1 C:\laragon\www\skripsi\app\Controllers\Home.php(99): file_get_contents('https://maps.go...')
+#2 C:\laragon\www\skripsi\app\Controllers\Personil\Laporan.php(197): App\Controllers\Home->distance_matrix_google('-0.0616549', '109.3426422', '-0.0373764', '109.3315807')
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Personil\Laporan->getLaporanMasuk()
+#4 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personil\Laporan))
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\skripsi\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}

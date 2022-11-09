@@ -1,0 +1,25 @@
+{
+    "name": "asus/skripsi",
+    "authors": [
+        {
+            "name": "Ronaldo Pei Piro",
+            "email": "ronaldopeipiro11@gmail.com"
+        }
+    ],
+    "require": {
+        "mpdf/mpdf": "^8.0",
+        "codeigniter4/translations": "^4.1",
+        "google/apiclient": "^2.0",
+        "minishlink/web-push": "^6.0",
+        "codeigniter4/codeigniter4": "dev-develop",
+        "codeigniter4/framework": "^4.2"
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/codeigniter4/codeigniter4"
+        }
+    ]
+}

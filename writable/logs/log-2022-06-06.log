@@ -1,0 +1,13 @@
+CRITICAL - 2022-06-06 11:34:34 --> Undefined offset: 0
+#0 C:\laragon\www\skripsi\app\Controllers\Home.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\laragon\\www\\...', 94, Array)
+#1 C:\laragon\www\skripsi\app\Views\personil\laporan\detail.php(130): App\Controllers\Home->getAddress('-7.2574719', '112.7520883')
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('personil/lapora...', Array, true)
+#5 C:\laragon\www\skripsi\app\Controllers\Personil\Laporan.php(128): view('personil/lapora...', Array)
+#6 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Personil\Laporan->detail('khL8VPO9IUhmeZv...')
+#7 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personil\Laporan))
+#8 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\skripsi\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#11 {main}

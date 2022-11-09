@@ -1,0 +1,14 @@
+CRITICAL - 2022-03-18 01:29:43 --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 86, Array)
+#1 C:\laragon\www\skripsi\app\Controllers\Home.php(86): file_get_contents('https://maps.go...')
+#2 C:\laragon\www\skripsi\app\Views\pelapor\laporan\views.php(267): App\Controllers\Home->getAddress('-0.0373764', '109.3315807')
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\laragon\\www\\...')
+#4 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('pelapor/laporan...', Array, true)
+#6 C:\laragon\www\skripsi\app\Controllers\Pelapor\Laporan.php(80): view('pelapor/laporan...', Array)
+#7 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pelapor\Laporan->index()
+#8 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelapor\Laporan))
+#9 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#12 {main}

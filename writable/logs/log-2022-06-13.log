@@ -1,0 +1,18 @@
+CRITICAL - 2022-06-13 14:27:46 --> Undefined property: stdClass::$formatted_phone_number
+#0 C:\laragon\www\skripsi\app\Controllers\Personil\FasilitasKesehatan.php(218): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 218, Array)
+#1 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Personil\FasilitasKesehatan->getDetailFaskes()
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personil\FasilitasKesehatan))
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\skripsi\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-06-13 15:01:25 --> file_get_contents(https://maps.googleapis.com/id/maps/api/place/details/json?placeid=ChIJQZxlabFZHS4RC_NRXBTGHPk&amp;key=AIzaSyA1MgLuZuyqR_OGY3ob3M52N46TDBRI_9k): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 205, Array)
+#1 C:\laragon\www\skripsi\app\Controllers\Personil\FasilitasKesehatan.php(205): file_get_contents('https://maps.go...')
+#2 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Personil\FasilitasKesehatan->getDetailFaskes()
+#3 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personil\FasilitasKesehatan))
+#4 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\skripsi\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 C:\laragon\www\skripsi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#7 {main}
