@@ -173,17 +173,18 @@ class Laporan extends BaseController
 
 		if ($cek_data->getNumRows() == 0) {
 			$this->LaporanModel->save([
+				'waktu' => $waktu_data,
 				'token' => $token,
 				'id_pelapor' => $id_pelapor,
 				'id_kategori_laporan' => $id_kategori_laporan,
 				'latitude' => $latitude,
 				'longitude' => $longitude,
 				'status' => '0',
-				'verifikasi' => '0'
+				'verifikasi' => '0',
 			]);
 			echo json_encode(array(
 				'success' => '1',
-				'pesan' => 'Laporan berhasil dibuat'
+				'pesan' => 'Berhasil membuat laporan !'
 			));
 		} else {
 			echo json_encode(array(
@@ -201,11 +202,10 @@ class Laporan extends BaseController
 		$latitude = $this->request->getPost('latitude');
 		$longitude = $this->request->getPost('longitude');
 
-		$query = $this->LaporanModel->save([
-			'id_laporan' => $id_laporan,
+		$query = $this->LaporanModel->updateLaporan([
 			'latitude' => $latitude,
-			'longitude' => $longitude,
-		]);
+			'longitude' => $longitude
+		], $id_laporan);
 
 		if ($query) {
 			echo json_encode(array(
@@ -325,6 +325,7 @@ class Laporan extends BaseController
 
 	public function tambah_foto_laporan()
 	{
+		$waktu_data = date("Y-m-d H:i:s");
 		$id_laporan = $this->request->getPost('id_laporan');
 		$file_foto = $this->request->getFile('foto');
 		$deskripsi = $this->request->getPost('deskripsi');
@@ -349,7 +350,8 @@ class Laporan extends BaseController
 			'latitude' => $latitude,
 			'longitude' => $longitude,
 			'upload_by' => 'pelapor',
-			'id_user_upload' => $this->user_id_pelapor
+			'id_user_upload' => $this->user_id_pelapor,
+			'create_datetime' => $waktu_data
 		]);
 
 		if ($query) {

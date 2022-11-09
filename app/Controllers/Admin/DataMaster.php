@@ -30,6 +30,7 @@ class DataMaster extends BaseController
 		$this->KategoriKecelakaanModel = new KategoriKecelakaanModel();
 		$this->JenisTindakanPersonilModel = new JenisTindakanPersonilModel();
 		$this->AdminModel = new AdminModel();
+
 		$this->request = \Config\Services::request();
 		$this->db = \Config\Database::connect();
 
@@ -72,6 +73,7 @@ class DataMaster extends BaseController
 
 	public function tambah_kategori_korban()
 	{
+		$waktu_data = date("Y-m-d H:i:s");
 		$kategori_korban = $this->request->getPost('kategori_korban');
 		$deskripsi = $this->request->getPost('deskripsi');
 
@@ -93,7 +95,8 @@ class DataMaster extends BaseController
 
 		$this->KategoriKorbanModel->save([
 			'kategori_korban' => $kategori_korban,
-			'deskripsi' => $deskripsi
+			'deskripsi' => $deskripsi,
+			'create_datetime' => $waktu_data
 		]);
 
 		echo json_encode(array(
@@ -104,6 +107,7 @@ class DataMaster extends BaseController
 
 	public function ubah_kategori_korban()
 	{
+		$waktu_data = date("Y-m-d H:i:s");
 		$id_kategori_korban = $this->request->getPost('id_kategori_korban');
 		$kategori_korban = $this->request->getPost('kategori_korban');
 		$deskripsi = $this->request->getPost('deskripsi');
@@ -126,7 +130,8 @@ class DataMaster extends BaseController
 
 		$this->KategoriKorbanModel->updateKategoriKorban([
 			'kategori_korban' => $kategori_korban,
-			'deskripsi' => $deskripsi
+			'deskripsi' => $deskripsi,
+			'update_datetime' => $waktu_data
 		], $id_kategori_korban);
 
 		echo json_encode(array(
@@ -179,6 +184,7 @@ class DataMaster extends BaseController
 
 	public function tambah_kategori_kecelakaan()
 	{
+		$waktu_data = date("Y-m-d H:i:s");
 		$kategori_kecelakaan = $this->request->getPost('kategori_kecelakaan');
 		$deskripsi = $this->request->getPost('deskripsi');
 
@@ -200,7 +206,8 @@ class DataMaster extends BaseController
 
 		$this->KategoriKecelakaanModel->save([
 			'kategori_kecelakaan' => $kategori_kecelakaan,
-			'deskripsi' => $deskripsi
+			'deskripsi' => $deskripsi,
+			'create_datetime' => $waktu_data
 		]);
 
 		echo json_encode(array(
@@ -211,6 +218,8 @@ class DataMaster extends BaseController
 
 	public function ubah_kategori_kecelakaan()
 	{
+		$waktu_data = date("Y-m-d H:i:s");
+
 		$id_kategori_kecelakaan = $this->request->getPost('id_kategori_kecelakaan');
 		$kategori_kecelakaan = $this->request->getPost('kategori_kecelakaan');
 		$deskripsi = $this->request->getPost('deskripsi');
@@ -233,7 +242,8 @@ class DataMaster extends BaseController
 
 		$this->KategoriKecelakaanModel->updateKategoriKecelakaan([
 			'kategori_kecelakaan' => $kategori_kecelakaan,
-			'deskripsi' => $deskripsi
+			'deskripsi' => $deskripsi,
+			'update_datetime' => $waktu_data
 		], $id_kategori_kecelakaan);
 
 		echo json_encode(array(
@@ -287,6 +297,8 @@ class DataMaster extends BaseController
 
 	public function ubah_kategori_laporan()
 	{
+		$waktu_data = date("Y-m-d H:i:s");
+
 		$id_kategori_laporan = $this->request->getPost('id_kategori_laporan');
 		$kategori_laporan = $this->request->getPost('kategori_laporan');
 		$deskripsi = $this->request->getPost('deskripsi');
@@ -309,7 +321,8 @@ class DataMaster extends BaseController
 
 		$this->KategoriLaporanModel->updateKategoriLaporan([
 			'kategori_laporan' => $kategori_laporan,
-			'deskripsi' => $deskripsi
+			'deskripsi' => $deskripsi,
+			'update_datetime' => $waktu_data
 		], $id_kategori_laporan);
 
 		echo json_encode(array(
@@ -342,6 +355,7 @@ class DataMaster extends BaseController
 
 	public function tambah_jenis_tindakan()
 	{
+		$waktu_data = date("Y-m-d H:i:s");
 		$jenis_tindakan = $this->request->getPost('jenis_tindakan');
 
 		if ($jenis_tindakan == "") {
@@ -353,7 +367,8 @@ class DataMaster extends BaseController
 		}
 
 		$this->JenisTindakanPersonilModel->save([
-			'jenis_tindakan' => $jenis_tindakan
+			'jenis_tindakan' => $jenis_tindakan,
+			'create_datetime' => $waktu_data
 		]);
 
 		echo json_encode(array(
@@ -364,6 +379,7 @@ class DataMaster extends BaseController
 
 	public function ubah_jenis_tindakan()
 	{
+		$waktu_data = date("Y-m-d H:i:s");
 		$id_jenis_tindakan = $this->request->getPost('id_jenis_tindakan');
 		$jenis_tindakan = $this->request->getPost('jenis_tindakan');
 
@@ -376,7 +392,8 @@ class DataMaster extends BaseController
 		}
 
 		$this->JenisTindakanPersonilModel->updateJenisTindakanPersonil([
-			'jenis_tindakan' => $jenis_tindakan
+			'jenis_tindakan' => $jenis_tindakan,
+			'update_datetime' => $waktu_data
 		], $id_jenis_tindakan);
 
 		echo json_encode(array(
@@ -430,6 +447,7 @@ class DataMaster extends BaseController
 
 	public function tambah_satker_personil()
 	{
+		$waktu_data = date("Y-m-d H:i:s");
 		$nama_satker = $this->request->getPost('nama_satker');
 
 		if ($nama_satker == "") {
@@ -441,7 +459,8 @@ class DataMaster extends BaseController
 		}
 
 		$this->SatkerPersonilModel->save([
-			'nama_satker' => $nama_satker
+			'nama_satker' => $nama_satker,
+			'create_datetime' => $waktu_data
 		]);
 
 		echo json_encode(array(
@@ -452,6 +471,8 @@ class DataMaster extends BaseController
 
 	public function ubah_satker_personil()
 	{
+		$waktu_data = date("Y-m-d H:i:s");
+
 		$id_satker = $this->request->getPost('id_satker');
 		$nama_satker = $this->request->getPost('nama_satker');
 
@@ -464,7 +485,8 @@ class DataMaster extends BaseController
 		}
 
 		$this->SatkerPersonilModel->updateSatkerPersonil([
-			'nama_satker' => $nama_satker
+			'nama_satker' => $nama_satker,
+			'update_datetime' => $waktu_data
 		], $id_satker);
 
 		echo json_encode(array(
@@ -518,6 +540,7 @@ class DataMaster extends BaseController
 
 	public function ubah_pangkat_personil()
 	{
+		$waktu_data = date("Y-m-d H:i:s");
 		$id_pangkat = $this->request->getPost('id_pangkat');
 		$pangkat = $this->request->getPost('pangkat');
 		$singkatan = $this->request->getPost('singkatan');
@@ -540,7 +563,8 @@ class DataMaster extends BaseController
 
 		$this->PangkatPersonilModel->updatePangkatPersonil([
 			'pangkat' => $pangkat,
-			'singkatan' => $singkatan
+			'singkatan' => $singkatan,
+			'update_datetime' => $waktu_data
 		], $id_pangkat);
 
 		echo json_encode(array(
